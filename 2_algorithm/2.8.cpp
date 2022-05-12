@@ -32,6 +32,40 @@ int main() {
   long int *nums16 = computeAlgTime(getRandomList3, 3200000);
   long int *nums17 = computeAlgTime(getRandomList3, 6400000);
 
+  delete nums1;
+  nums1 = NULL;
+  delete nums2;
+  nums2 = NULL;
+  delete nums3;
+  nums3 = NULL;
+  delete nums4;
+  nums4 = NULL;
+  delete nums5;
+  nums5 = NULL;
+  delete nums6;
+  nums6 = NULL;
+  delete nums7;
+  nums7 = NULL;
+  delete nums8;
+  nums8 = NULL;
+  delete nums9;
+  nums9 = NULL;
+  delete nums10;
+  nums10 = NULL;
+  delete nums11;
+  nums11 = NULL;
+  delete nums12;
+  nums12 = NULL;
+  delete nums13;
+  nums13 = NULL;
+  delete nums14;
+  nums14 = NULL;
+  delete nums15;
+  nums15 = NULL;
+  delete nums16;
+  nums16 = NULL;
+  delete nums17;
+  nums17 = NULL;
   return 0;
 }
 
